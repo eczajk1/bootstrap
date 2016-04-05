@@ -18,7 +18,7 @@
   &:extend(.clearfix all);
 
   @media (min-width: @grid-float-breakpoint) {
-    border-radius: @navbar-border-radius;
+    border-radius: 0px;
   }
 }
 
@@ -163,7 +163,7 @@
 .navbar-brand {
   float: left;
   padding: @navbar-padding-vertical @navbar-padding-horizontal;
-  font-size: @font-size-large;
+  font-size: @font-size-h3;
   line-height: @line-height-computed;
   height: @navbar-height;
 
@@ -423,8 +423,8 @@
       &,
       &:hover,
       &:focus {
-        color: @navbar-default-link-active-color;
-        background-color: @navbar-default-link-active-bg;
+        // color: @navbar-default-link-active-color;
+        // background-color: @navbar-default-link-active-bg;
       }
     }
     > .disabled > a {
